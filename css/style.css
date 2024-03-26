@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+  user-select: none;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next {
+  background: #00000098;
+  padding: 20px !important;
+  border-radius: 100%;
+  width: 30px !important;
+  height: 30px !important;
+}
+.swiper-button-next:hover {
+  background: #000;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 15px !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  font-weight: bold;
+  color: #fff;
+}
+.swiper-button-prev {
+  background: #00000098;
+  padding: 20px !important;
+  border-radius: 100%;
+  width: 30px !important;
+  height: 30px !important;
+}
+.swiper-button-prev:hover {
+  background: #000;
+}
